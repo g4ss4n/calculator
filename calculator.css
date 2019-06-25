@@ -1,0 +1,25 @@
+.pad{
+    background-color: gold;
+    justify-content: center;
+    display: grid;
+}
+
+.input{
+    background-color: azure;
+    width: 80%;
+    grid-gap: 60px;
+}
+
+.buttons{
+    color: gold;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 70%;
+}
+
+button{
+    color:black;
+    background-color: green;
+}
+button[type="mult"]{
+    background-color: red !important;
+}
