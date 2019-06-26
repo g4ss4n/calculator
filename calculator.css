@@ -1,25 +1,57 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .pad{
-    background-color: gold;
+    background:rgba(255, 255, 255, 0.767);
     justify-content: center;
+    text-align: center;
     display: grid;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    right: 40%;
+    bottom: 20%;
+    border-radius: 1%;
+    border: 4px solid rgba(39, 39, 49, 0.315);
 }
 
 .input{
-    background-color: azure;
-    width: 80%;
-    grid-gap: 60px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    top: 100px;
+    height: 70px;
 }
 
 .buttons{
-    color: gold;
+    color: rgb(163, 163, 163);
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 70%;
+    grid-template-rows: 20% 20% 20% 20%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+
 button{
-    color:black;
-    background-color: green;
+    font-size: 16px;
+    width: 45px;
+    height: 45px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
+
 button[type="mult"]{
-    background-color: red !important;
+    background-color: rgba(0, 0, 87, 0.575) !important;
 }
+
+.button:hover {
+    background-color: #c00000a9;
+    color: rgb(0, 0, 0);
+  }
